@@ -57,8 +57,7 @@ async function sha256(message) {
   const hashArray = Array.from(new Uint8Array(hashBuffer))
 
   // convert bytes to hex string
-  const hashHex = hashArray.map(b => ("00" + b.toString(16)).slice(-2)).join("")
-  return hashHex
+  return hashArray.map(b => ("00" + b.toString(16)).slice(-2)).join("")
 }
 
 async function handlePostRequest(event) {
@@ -101,7 +100,7 @@ addEventListener("fetch", event => {
     return event.respondWith(new Response("Error thrown " + e.message))
   }
 })
-// Reset headers 
+// Reset headers
 async function handleRequest(request) {
   let requestHeaders = JSON.stringify([...request.headers])
   console.log(new Map(request.headers))
@@ -112,4 +111,3 @@ async function handleRequest(request) {
 addEventListener("fetch", event => {
   return event.respondWith(handleRequest(event.request))
 })
-
