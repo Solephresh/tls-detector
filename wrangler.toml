@@ -1,0 +1,8 @@
+name = "phresh-worker"
+type = "javascript"
+account_id = "Your CF Account ID"
+workers_dev = true
+route = "https://yourwebsite/*"
+zone_id = ""
+api_token = ""
+

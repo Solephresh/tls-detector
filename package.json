@@ -1,0 +1,32 @@
+{
+  "name": "@phresh/tls-detector",
+  "version": "1.0.0",
+  "description": "Detect old TLS Versions and Streams on Cloudflare ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solephresh/tls-detector.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "tls",
+    "stream",
+    "version",
+    "security",
+    "networking"
+  ],
+  "author": "Phresh",
+  "license": "MIT",
+  
+  "bugs": {
+    "url": "https://github.com/Solephresh/tls-detector/issues"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "homepage": "https://github.com/Solephresh/tls-detector#readme"
+  
+}
