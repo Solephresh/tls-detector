@@ -1,5 +1,5 @@
 name = "phresh-worker"
-type = "javascript"
+type = ""
 account_id = "Your CF Account ID"
 workers_dev = true
 route = "https://yourwebsite/*"
